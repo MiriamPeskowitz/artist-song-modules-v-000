@@ -2,7 +2,7 @@ require 'pry'
 
 
 class Artist
-  include Memorable ::InstanceMethods
+  include Memorable ::InstanceMethod
   extend Memorable ::ClassMethods
 
   attr_accessor :name
