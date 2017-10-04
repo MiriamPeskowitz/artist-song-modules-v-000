@@ -1,8 +1,8 @@
 require 'pry'
 
 class Song
-  include Memorable ::InstanceMethods
-  extend Memorable ::ClassMethods
+  include Memorable ::InstanceMethod
+  extend Memorable ::ClassMethod
   
   attr_accessor :name
   attr_reader :artist
